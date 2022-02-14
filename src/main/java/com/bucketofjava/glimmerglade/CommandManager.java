@@ -126,6 +126,7 @@ public class CommandManager {
                         System.out.println("blueprints: list buildings and their costs");
                         System.out.println("profile citizen [citizen name]: get the profile of a certain citizen");
                         System.out.println("inventory: get your town's inventory, including items, buildings, and citizens");
+                        return 0;
                     case "shop":
                         for(String resource:Resource.resourceCosts.keySet()){
                             System.out.println(resource+" - "+String.valueOf(Resource.resourceCosts.get(resource)+" coins"));
